@@ -35,11 +35,13 @@ public class TeachingClass {
     public TeachingClass() {
     }
 
-
-    public TeachingClass(CreateTeachingClassCommand command) {
-     // apply(new TeachingClassCreatedEvent());
+    public TeachingClass(TeachingClassID teachingClassID, TeachingCourse teachingCourse, String studingInterval, ArrayList<CourseTeacher> courseTeachers, ArrayList<CourseStudent> courseStudents) {
+        this.teachingClassID = teachingClassID;
+        this.teachingCourse = teachingCourse;
+        this.studingInterval = studingInterval;
+        this.courseTeachers = courseTeachers;
+        this.courseStudents = courseStudents;
     }
-
 
     public TeachingClassID getTeachingClassID() {
         return teachingClassID;

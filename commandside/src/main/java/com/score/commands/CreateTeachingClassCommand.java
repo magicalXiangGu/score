@@ -7,6 +7,10 @@ import org.axonframework.commandhandling.TargetAggregateIdentifier;
 import java.util.ArrayList;
 import java.util.Map;
 
+/**
+ * 创建教学班命令
+ */
+
 public class CreateTeachingClassCommand {
 
 
