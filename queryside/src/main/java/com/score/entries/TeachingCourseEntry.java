@@ -16,6 +16,13 @@ public class TeachingCourseEntry {
     //课程性质：必修、选修
     private String courseNature;
 
+    public TeachingCourseEntry(String teachingCourseID, String courseName, String courseType, String courseNature) {
+        this.teachingCourseID = teachingCourseID;
+        this.courseName = courseName;
+        this.courseType = courseType;
+        this.courseNature = courseNature;
+    }
+
     public String getTeachingCourseID() {
         return teachingCourseID;
     }

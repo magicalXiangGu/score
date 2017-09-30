@@ -15,6 +15,11 @@ public class CourseStudentEntry {
         return courseStudentID;
     }
 
+    public CourseStudentEntry(String courseStudentID, String studentName) {
+        this.courseStudentID = courseStudentID;
+        this.studentName = studentName;
+    }
+
     public void setCourseStudentID(String courseStudentID) {
         this.courseStudentID = courseStudentID;
     }

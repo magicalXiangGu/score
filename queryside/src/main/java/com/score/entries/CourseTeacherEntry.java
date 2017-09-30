@@ -14,6 +14,12 @@ public class CourseTeacherEntry {
     //上课教员类型
     private String teacherPosition;
 
+    public CourseTeacherEntry(String courseTeacherID, String courseTeacherName, String teacherPosition) {
+        this.courseTeacherID = courseTeacherID;
+        this.courseTeacherName = courseTeacherName;
+        this.teacherPosition = teacherPosition;
+    }
+
     public String getCourseTeacherID() {
         return courseTeacherID;
     }

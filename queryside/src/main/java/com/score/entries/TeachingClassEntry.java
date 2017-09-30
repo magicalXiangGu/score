@@ -29,6 +29,14 @@ public class TeachingClassEntry {
         return teachingClassID;
     }
 
+    public TeachingClassEntry(String teachingClassID, String studingInterval, TeachingCourseEntry teachingCourse, List<CourseStudentEntry> courseStudentList, List<CourseTeacherEntry> courseTeacherList) {
+        this.teachingClassID = teachingClassID;
+        this.studingInterval = studingInterval;
+        this.teachingCourse = teachingCourse;
+        this.courseStudentList = courseStudentList;
+        this.courseTeacherList = courseTeacherList;
+    }
+
     public void setTeachingClassID(String teachingClassID) {
         this.teachingClassID = teachingClassID;
     }
